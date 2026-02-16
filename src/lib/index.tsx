@@ -20,7 +20,7 @@ type ValidPositionAreaX =
   | "start"
   | "end"
   | "center"
-  | "selft-start"
+  | "self-start"
   | "self-end"
   | "x-start"
   | "x-end";
@@ -66,7 +66,7 @@ export type PopoverProps = {
   /**
    * @default "pointerdown"
    * If set to null no event would trigger popover,
-   * so you need to trigger it mannually.
+   * so you need to trigger it manually.
    * Event name or list of event names separated by "|" which triggers popover.
    * You may also add modifiers like "capture", "passive", "once", "prevent", "stop" to the event separated by ".":
    * @example "pointerdown.capture.once.prevent|click"
